@@ -16,6 +16,11 @@ gradle:What went wrong: A problem occurred evaluating project ':service-asset-ma
 --
     :gradle版本太低，升级
     
+
+****
+MySQL字段时间差查询
+--
+    eg: select * from 表名 where DATEDIFF(DATE(now()),DATE(时间字段名)) > 值-差值;
     
 
 
