@@ -22,6 +22,14 @@ MySQL字段时间差查询
 --
     eg: select * from 表名 where DATEDIFF(DATE(now()),DATE(时间字段名)) > 值-差值;
     
+    
+****
+localhost、127.0.0.1可以访问，ip不能访问
+--
+    eg: 打开端口：sudo ufw allow 80、sudo ufw enable、sudo ufw reload
+    
+    
+    
 
 
 
